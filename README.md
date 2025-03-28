@@ -1,9 +1,9 @@
 # Steps to run the project 
-* installation of vite+react -
+## installation of vite+react -
 - npm create vite@latest
 - npm install
 
-* Setup Tailwind -
+## Setup Tailwind -
 - npm install tailwindcss @tailwindcss/vite
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
@@ -38,8 +38,16 @@ plugins: [
     }
   }
 
-* Run the Project -
-- npm run dev 
+## Run the Project -
+- npm run dev
+
+## Used dependencies -
+- react-router
+- @reduxjs/toolkit
+- react-redux
+- axios
+- react-icons
+- Use shadcn/ui for Button and Popover. To setup goto shadcn/ui site and follow the steps 
 
 # React + Vite
 
