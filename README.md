@@ -1,3 +1,8 @@
+# Live link:- https://userglobalgroupwaremanash.netlify.app
+## Login - 
+- Email :- eve.holt@reqres.in
+- Password :- cityslicka
+
 # Steps to run the project 
 ## installation of vite+react -
 - npm create vite@latest
