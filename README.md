@@ -38,17 +38,16 @@ plugins: [
     }
   }
 
-## Other dependencies -
-- npm install react-router
-- npm install @reduxjs/toolkit
-- npm install react-redux
-- npm install axios
-- npm install react-icons
-- npx shadcn@latest init
-- for all shadcn/ui setup goto shadcn/ui site and follow the steps for Button, Popover and all
-
 ## Run the Project -
-- npm run dev 
+- npm run dev
+
+## Used dependencies -
+- react-router
+- @reduxjs/toolkit
+- react-redux
+- axios
+- react-icons
+- Use shadcn/ui for Button and Popover. To setup goto shadcn/ui site and follow the steps 
 
 # React + Vite
 
