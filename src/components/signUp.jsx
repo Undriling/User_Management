@@ -66,6 +66,9 @@ const Signup = () => {
               Login
             </span>
           </p>
+          <p className="text-center mt-3 text-gray-400">
+            Developed by Manash Baruah
+          </p>
         </div>
       </div>
     </>

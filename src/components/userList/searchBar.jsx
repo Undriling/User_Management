@@ -6,7 +6,7 @@ const SearchBar = ({ onSearch }) => {
   const handleSearch = (e) => {
     const value = e.target.value;
     setQuery(value);
-    onSearch(value); // Pass input value to parent component
+    onSearch(value);
   };
 
   return (

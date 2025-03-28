@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { deleteUser, fetchUsers } from '../users/users';
-// import { fetchUsers, deleteUser } from '../api/users';
 
 const useUsersData = () => {
   const [users, setUsers] = useState([]);
