@@ -1,9 +1,9 @@
-## Steps to run the project 
-# installation of vite+react -
+# Steps to run the project 
+## installation of vite+react -
 - npm create vite@latest
 - npm install
 
- Setup Tailwind -
+## Setup Tailwind -
 - npm install tailwindcss @tailwindcss/vite
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
@@ -38,7 +38,7 @@ plugins: [
     }
   }
 
- Run the Project -
+## Run the Project -
 - npm run dev 
 
 # React + Vite
