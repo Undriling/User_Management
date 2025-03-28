@@ -1,3 +1,46 @@
+# Steps to run the project 
+* installation of vite+react -
+- npm create vite@latest
+- npm install
+
+* Setup Tailwind -
+- npm install tailwindcss @tailwindcss/vite
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+- Add this in vite.config.js - 
+plugins: [
+        tailwindcss(),
+    ],
+- Add this in your index.css -
+    @import "tailwindcss"
+- Add jsconfig.app.json -
+    {
+    "compilerOptions": {
+      // ...
+      "baseUrl": ".",
+      "paths": {
+        "@/*": [
+          "./src/*"
+        ]
+      }
+      // ...
+    }
+  }
+- Add jsconfig.json -
+    {
+    "files": [],
+    "references": [],
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    }
+  }
+
+* Run the Project -
+- npm run dev 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
