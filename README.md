@@ -1,4 +1,4 @@
-Assignment by Global Groupware Sulution Ltd. Submitted on 28/03/2025
+Assignment by Global Groupware Solution Ltd. Submitted on 28/03/2025
 
 ## Live link:- https://userglobalgroupwaremanash.netlify.app
 
