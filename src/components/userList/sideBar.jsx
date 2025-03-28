@@ -5,7 +5,7 @@ const SideBar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="hidden lg:block w-60 bg-white shadow-md fixed h-full">
+    <div className="hidden lg:block w-60 bg-white shadow-2xl fixed h-full">
       <div className="p-4 font-bold text-xl">Menu</div>
       <ul className="space-y-2 p-4">
         <li
